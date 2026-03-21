@@ -2,7 +2,7 @@ package user
 
 import (
 	"github.com/eddieowens/opts"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/polpo666/pzero/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 

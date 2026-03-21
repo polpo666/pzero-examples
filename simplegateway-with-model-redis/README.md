@@ -1,11 +1,11 @@
 # simplegateway-with-model-redis
 
-## Install Jzero Framework
+## Install Pzero Framework
 
 ```shell
-go install github.com/jzero-io/jzero/cmd/jzero@latest
+go install github.com/polpo666/pzero/cmd/pzero@latest
 
-jzero check
+pzero check
 ```
 
 ## Generate code
@@ -13,19 +13,19 @@ jzero check
 ### Generate server code
 
 ```shell
-jzero gen
+pzero gen
 ```
 
 ### Generate client go code
 
 ```shell
-jzero gen sdk
+pzero gen sdk
 ```
 
 ### Generate swagger code
 
 ```shell
-jzero gen swagger
+pzero gen swagger
 ```
 
 ## Build docker image
@@ -40,4 +40,4 @@ docker buildx build --platform linux/amd64 --progress=plain -t simplegateway-wit
 
 ## Documents
 
-https://docs.jzero.io
+https://docs.pzero.io
