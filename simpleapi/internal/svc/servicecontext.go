@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"github.com/jzero-io/jzero/core/configcenter"
+	"github.com/polpo666/pzero/core/configcenter"
 
 	"simpleapi/internal/config"
 )
