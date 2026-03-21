@@ -3,8 +3,8 @@ package serverless
 import (
 	"path/filepath"
 
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
+	"github.com/polpo666/pzero/core/configcenter"
+	"github.com/polpo666/pzero/core/configcenter/subscriber"
 	"google.golang.org/grpc"
 
 	"simplerpc/plugins/helloworld/internal/config"

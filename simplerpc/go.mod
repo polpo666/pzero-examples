@@ -2,13 +2,13 @@ module simplerpc
 
 go 1.24.3
 
-tool github.com/jzero-io/jzero/cmd/jzero
+tool github.com/polpo666/pzero/cmd/pzero
 
 require (
 	buf.build/go/protovalidate v1.1.3
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
-	github.com/jzero-io/jzero v1.2.2-0.20260311092049-ff578aa0ff76
 	github.com/pkg/errors v0.9.1
+	github.com/polpo666/pzero v1.3.2-0.20260321142453-23de5591b355
 	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.10.1
 	github.com/zeromicro/go-zero v1.10.0
@@ -50,7 +50,7 @@ require (
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.6.2 // indirect
-	github.com/go-git/go-git/v5 v5.16.4 // indirect
+	github.com/go-git/go-git/v5 v5.16.5 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.1 // indirect
@@ -87,7 +87,6 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/jzero-io/desc v1.2.0 // indirect
 	github.com/jzero-io/go_fmt v0.0.0-20250905015347-1a45352494b7 // indirect
-	github.com/jzero-io/jzero/cmd/jzero v1.2.1 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/compress v1.18.1 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
@@ -105,6 +104,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pjbgf/sha1cd v0.3.2 // indirect
+	github.com/polpo666/pzero/cmd/pzero v1.3.1 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.66.1 // indirect
