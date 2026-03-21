@@ -1,8 +1,8 @@
 package svc
 
 import (
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/polpo666/pzero/core/configcenter"
+	"github.com/polpo666/pzero/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/redis"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 

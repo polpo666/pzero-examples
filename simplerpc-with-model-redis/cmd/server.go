@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"github.com/common-nighthawk/go-figure"
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
-	"github.com/jzero-io/jzero/core/stores/migrate"
+	"github.com/polpo666/pzero/core/configcenter"
+	"github.com/polpo666/pzero/core/configcenter/subscriber"
+	"github.com/polpo666/pzero/core/stores/migrate"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/core/service"
