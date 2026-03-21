@@ -180,8 +180,8 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/polpo666/pzero v1.3.2 h1:f6MBn3zZZI2Tags8X6Xos3pnUMv0HnmUOhlkX9WsoKM=
-github.com/polpo666/pzero v1.3.2/go.mod h1:qH9i7iGwk9FWndrUa4GbVT/hn/VLt1wXrFl15ictFA4=
+github.com/polpo666/pzero v1.3.3-0.20260321144204-ffb33f93c8cc h1:e2xo23NShmJ2sFMm/JUUX9BfN8MVByWjmRPAWMic9+U=
+github.com/polpo666/pzero v1.3.3-0.20260321144204-ffb33f93c8cc/go.mod h1:qH9i7iGwk9FWndrUa4GbVT/hn/VLt1wXrFl15ictFA4=
 github.com/prashantv/gostub v1.1.0 h1:BTyx3RfQjRHnUWaGF9oQos79AlQ5k8WNktv7VGvVH4g=
 github.com/prashantv/gostub v1.1.0/go.mod h1:A5zLQHz7ieHGG7is6LLXLz7I8+3LZzsrV0P1IAHhP5U=
 github.com/prometheus/client_golang v1.23.2 h1:Je96obch5RDVy3FDMndoUsjAhG5Edi49h0RJWRi/o0o=

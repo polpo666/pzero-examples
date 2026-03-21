@@ -33,7 +33,3 @@ docker buildx create --use --name=mybuilder --driver docker-container --driver-o
 # build and load
 docker buildx build --platform linux/amd64 --progress=plain -t simpleapi-with-model-redis:latest . --load
 ```
-
-## Documents
-
-https://docs.pzero.io
