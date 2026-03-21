@@ -1,4 +1,4 @@
 gen:
     hooks:
         after:
-            - jzero gen swagger
+            - pzero gen swagger
