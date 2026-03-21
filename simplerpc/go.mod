@@ -8,7 +8,7 @@ require (
 	buf.build/go/protovalidate v1.1.3
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
 	github.com/pkg/errors v0.9.1
-	github.com/polpo666/pzero v1.3.2-0.20260321142453-23de5591b355
+	github.com/polpo666/pzero v1.3.2
 	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.10.1
 	github.com/zeromicro/go-zero v1.10.0
