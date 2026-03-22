@@ -27,7 +27,7 @@ type LogConf struct {
 }
 
 type BannerConf struct {
-	Text     string `json:",default=JZERO"`
+	Text     string `json:",default=PZERO"`
 	Color    string `json:",default=green"`
 	FontName string `json:",default=starwars,options=big|larry3d|starwars|standard"`
 }

@@ -15,7 +15,6 @@ import (
 
 	"simplegateway/desc/pb"
 	"simplegateway/internal/config"
-	"simplegateway/internal/custom"
 	"simplegateway/internal/middleware"
 	"simplegateway/internal/server"
 	"simplegateway/internal/svc"
@@ -61,8 +60,6 @@ var serverCmd = &cobra.Command{
 		gatewayServer := gateway.MustNewServer(cc.MustGetConfig().Gateway.GatewayConf, middleware.WithHeaderProcessor())
 		// register swagger routes
 		swaggerv2.RegisterRoutes(gatewayServer.Server)
-		// // create custom server
-		customServer := custom.New()
 
 		// register middleware
 		middleware.Register(zrpcServer, gatewayServer)
@@ -70,7 +67,6 @@ var serverCmd = &cobra.Command{
 		group := service.NewServiceGroup()
 		group.Add(zrpcServer)
 		group.Add(gatewayServer)
-		group.Add(customServer)
 
 		logx.Infof("Starting rpc server at %s...", cc.MustGetConfig().Zrpc.ListenOn)
 		logx.Infof("Starting gateway server at %s:%d...", cc.MustGetConfig().Gateway.Host, cc.MustGetConfig().Gateway.Port)
