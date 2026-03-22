@@ -9,7 +9,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.3
 	github.com/huandu/go-sqlbuilder v1.39.1
 	github.com/pkg/errors v0.9.1
-	github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1
+	github.com/polpo666/pzero v1.3.4-0.20260322020819-669fad3eb47a
 	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.10.2
 	github.com/zeromicro/go-zero v1.10.0
