@@ -5,14 +5,6 @@ import (
 	"github.com/zeromicro/go-zero/rest"
 
 	"simpleapi/internal/svc"
-	helloworld "simpleapi/plugins/helloworld/serverless"
 )
 
-func LoadPlugins(server *rest.Server, svcCtx *svc.ServiceContext) {
-
-	{
-		serverless := helloworld.New()
-		serverless.HandlerFunc(server, serverless.SvcCtx)
-	}
-
-}
+func LoadPlugins(server *rest.Server, svcCtx *svc.ServiceContext) {}

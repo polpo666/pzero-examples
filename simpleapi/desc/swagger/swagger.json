@@ -5,37 +5,6 @@
   ],
   "info": {},
   "paths": {
-    "/api/helloworld": {
-      "post": {
-        "consumes": [
-          "application/x-www-form-urlencoded"
-        ],
-        "operationId": "plugins/helloworld/helloworldCreate",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "",
-            "schema": {
-              "type": "object"
-            }
-          }
-        },
-        "schemes": [
-          "https"
-        ],
-        "security": [
-          {
-            "apiKey": []
-          }
-        ],
-        "summary": "Create",
-        "tags": [
-          "plugins/helloworld/helloworld"
-        ]
-      }
-    },
     "/api/user": {
       "post": {
         "consumes": [
