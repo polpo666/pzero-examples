@@ -11,8 +11,10 @@ import (
 	"simplerpc/internal/config"
 	"simplerpc/internal/svc"
 
+	usersvr "simplerpc/internal/server/user"
 	versionsvr "simplerpc/internal/server/version"
 
+	"simplerpc/internal/types/user"
 	"simplerpc/internal/types/version"
 )
 
@@ -20,6 +22,7 @@ import (
 func RegisterZrpc(c config.Config, ctx *svc.ServiceContext) *zrpc.RpcServer {
 	s := zrpc.MustNewServer(c.Zrpc.RpcServerConf, func(grpcServer *grpc.Server) {
 	    
+		user.RegisterUserServer(grpcServer, usersvr.NewUser(ctx))
 		version.RegisterVersionServer(grpcServer, versionsvr.NewVersion(ctx))
 
 		if c.Zrpc.Mode == service.DevMode || c.Zrpc.Mode == service.TestMode {
@@ -32,5 +35,6 @@ func RegisterZrpc(c config.Config, ctx *svc.ServiceContext) *zrpc.RpcServer {
 
 func RegisterZrpcServer(grpcServer *grpc.Server, ctx *svc.ServiceContext) {
     
+		user.RegisterUserServer(grpcServer, usersvr.NewUser(ctx))
 		version.RegisterVersionServer(grpcServer, versionsvr.NewVersion(ctx))
 }

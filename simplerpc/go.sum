@@ -274,10 +274,10 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/polpo666/pzero v1.3.3-0.20260321144204-ffb33f93c8cc h1:e2xo23NShmJ2sFMm/JUUX9BfN8MVByWjmRPAWMic9+U=
-github.com/polpo666/pzero v1.3.3-0.20260321144204-ffb33f93c8cc/go.mod h1:qH9i7iGwk9FWndrUa4GbVT/hn/VLt1wXrFl15ictFA4=
-github.com/polpo666/pzero/cmd/pzero v1.3.1 h1:uX4fdZxDepmbHSjOQlXcybYS8Ix+8sMAgYxwaEKpB10=
-github.com/polpo666/pzero/cmd/pzero v1.3.1/go.mod h1:ABiiCyU2+pt6Zi49iBaVDgIZuusGjda2HIZAbFg9nBE=
+github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1 h1:Cp/KkN5Hdb6fkr10gAAskLtOnp6f1wZqG1lxz4N5cTo=
+github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1/go.mod h1:FoDTEuJSbBQmVoSsmLAC05SWpOOWuYqxOFb+kPSWuGg=
+github.com/polpo666/pzero/cmd/pzero v1.3.3 h1:mkvoPT+tI2PJOeEC8RuN1bFEOt/OJqb2tjF+vi66Z2U=
+github.com/polpo666/pzero/cmd/pzero v1.3.3/go.mod h1:U86nOSGJ+xI4RQlVAZBqg8QVDy5oIL0XoispEBa6Gf4=
 github.com/prashantv/gostub v1.1.0 h1:BTyx3RfQjRHnUWaGF9oQos79AlQ5k8WNktv7VGvVH4g=
 github.com/prashantv/gostub v1.1.0/go.mod h1:A5zLQHz7ieHGG7is6LLXLz7I8+3LZzsrV0P1IAHhP5U=
 github.com/prometheus/client_golang v1.23.2 h1:Je96obch5RDVy3FDMndoUsjAhG5Edi49h0RJWRi/o0o=

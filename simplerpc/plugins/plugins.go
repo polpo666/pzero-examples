@@ -5,14 +5,6 @@ import (
 	"google.golang.org/grpc"
 
 	"simplerpc/internal/svc"
-	helloworld "simplerpc/plugins/helloworld/serverless"
 )
 
-func LoadPlugins(grpcServer *grpc.Server, svcCtx *svc.ServiceContext) {
-
-	{
-		serverless := helloworld.New()
-		serverless.RegisterZrpcServer(grpcServer, serverless.SvcCtx)
-	}
-
-}
+func LoadPlugins(grpcServer *grpc.Server, svcCtx *svc.ServiceContext) {}

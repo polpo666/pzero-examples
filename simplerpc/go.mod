@@ -1,6 +1,6 @@
 module simplerpc
 
-go 1.24.3
+go 1.26.1
 
 tool github.com/polpo666/pzero/cmd/pzero
 
@@ -8,7 +8,7 @@ require (
 	buf.build/go/protovalidate v1.1.3
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
 	github.com/pkg/errors v0.9.1
-	github.com/polpo666/pzero v1.3.3-0.20260321144204-ffb33f93c8cc
+	github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1
 	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.10.1
 	github.com/zeromicro/go-zero v1.10.0
@@ -104,7 +104,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pjbgf/sha1cd v0.3.2 // indirect
-	github.com/polpo666/pzero/cmd/pzero v1.3.1 // indirect
+	github.com/polpo666/pzero/cmd/pzero v1.3.3 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.66.1 // indirect

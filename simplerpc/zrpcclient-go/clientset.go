@@ -5,7 +5,6 @@ package zrpcclient_go
 import (
 	"github.com/zeromicro/go-zero/zrpc"
 
-	"simplerpc/zrpcclient-go/plugins"
 	user "simplerpc/zrpcclient-go/typed/user"
 	version "simplerpc/zrpcclient-go/typed/version"
 )
@@ -15,8 +14,6 @@ type Clientset interface {
 
 	User() user.User
 	Version() version.Version
-
-	Plugins() plugins.Plugins
 }
 
 type clientset struct {
@@ -25,8 +22,6 @@ type clientset struct {
 
 	user    user.User
 	version version.Version
-
-	plugins plugins.Plugins
 }
 
 func (cs *clientset) Direct() zrpc.Client {
@@ -41,16 +36,11 @@ func (cs *clientset) Version() version.Version {
 	return cs.version
 }
 
-func (cs *clientset) Plugins() plugins.Plugins {
-	return cs.plugins
-}
-
 func NewClientset(cli zrpc.Client) (Clientset, error) {
 	cs := clientset{
 		direct:  cli,
 		user:    user.NewUser(cli),
 		version: version.NewVersion(cli),
-		plugins: plugins.NewPlugins(cli),
 	}
 
 	return &cs, nil

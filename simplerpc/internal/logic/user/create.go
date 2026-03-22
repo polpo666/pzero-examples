@@ -1,12 +1,12 @@
-package helloworldlogic
+package userlogic
 
 import (
 	"context"
 
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"simplerpc/plugins/helloworld/internal/svc"
-	"simplerpc/plugins/helloworld/internal/types/helloworld"
+	"simplerpc/internal/svc"
+	"simplerpc/internal/types/user"
 )
 
 type Create struct {
@@ -23,8 +23,8 @@ func NewCreate(ctx context.Context, svcCtx *svc.ServiceContext) *Create {
 	}
 }
 
-func (l *Create) Create(in *helloworld.CreateRequest) (*helloworld.CreateResponse, error) {
+func (l *Create) Create(in *user.CreateRequest) (*user.CreateResponse, error) {
 	// todo: add your logic here and delete this line
 
-	return &helloworld.CreateResponse{}, nil
+	return &user.CreateResponse{}, nil
 }
