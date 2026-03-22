@@ -172,8 +172,8 @@ github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10/go.mod h1
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1 h1:Cp/KkN5Hdb6fkr10gAAskLtOnp6f1wZqG1lxz4N5cTo=
-github.com/polpo666/pzero v1.3.4-0.20260322014632-c569d4541bd1/go.mod h1:FoDTEuJSbBQmVoSsmLAC05SWpOOWuYqxOFb+kPSWuGg=
+github.com/polpo666/pzero v1.3.4-0.20260322020819-669fad3eb47a h1:F5ffR8q5xdvb+XM4cQUMiQmR9KxMaYWnqpHUUqSvM1M=
+github.com/polpo666/pzero v1.3.4-0.20260322020819-669fad3eb47a/go.mod h1:FoDTEuJSbBQmVoSsmLAC05SWpOOWuYqxOFb+kPSWuGg=
 github.com/prashantv/gostub v1.1.0 h1:BTyx3RfQjRHnUWaGF9oQos79AlQ5k8WNktv7VGvVH4g=
 github.com/prashantv/gostub v1.1.0/go.mod h1:A5zLQHz7ieHGG7is6LLXLz7I8+3LZzsrV0P1IAHhP5U=
 github.com/prometheus/client_golang v1.23.2 h1:Je96obch5RDVy3FDMndoUsjAhG5Edi49h0RJWRi/o0o=
