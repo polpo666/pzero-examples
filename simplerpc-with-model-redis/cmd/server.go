@@ -13,7 +13,6 @@ import (
 	"google.golang.org/grpc/reflection"
 
 	"simplerpc-with-model-redis/internal/config"
-	"simplerpc-with-model-redis/internal/custom"
 	"simplerpc-with-model-redis/internal/middleware"
 	"simplerpc-with-model-redis/internal/server"
 	"simplerpc-with-model-redis/internal/svc"
@@ -52,14 +51,11 @@ var serverCmd = &cobra.Command{
 				reflection.Register(grpcServer)
 			}
 		})
-		// create custom server
-		customServer := custom.New()
 		// register middleware
 		middleware.Register(zrpcServer)
 
 		group := service.NewServiceGroup()
 		group.Add(zrpcServer)
-		group.Add(customServer)
 
 		logx.Infof("Starting rpc server at %s...", cc.MustGetConfig().Zrpc.ListenOn)
 		group.Start()
